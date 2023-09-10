@@ -1,0 +1,186 @@
+<div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators indicators-border-rad">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" ></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row d-flex justify-content-center">
+            <div class="col-sm-3">
+              <div class="card card-border-rad">
+                <img src="/CSS/img/reactjs-course.jpg" class="card-img-top img-border-rad" alt="reactjs-course">
+                <div class="card-body">
+                  <div class="mb-2 ms-3"><span class="h4">19$</span></div>
+                  <h5 class="card-title title-font-size">React JS: Learn React JS From Scratch with Hands-On Projects</h5>
+                  <p class="card-text mb-2 ">Sajeda El-Jendy</p>
+                  <div class="d-flex justify-content-between">
+                    <span class="card-time-margine h6"><i class="fa-regular fa-clock"></i> <span>2:30</span></span>
+                    <div class="d-flex">
+                    <span class="h6">4.6</span><div class="rating-star ms-2 h6"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> 
+                    </div>
+                  </div>
+                  </div>
+                  <hr>
+                  <div class="d-flex justify-content-between">
+                  <a href="#" class="btn btn-primary "><span><i class="fa-solid fa-cart-shopping fa-bounce"></i></span> add to cart
+                  </a>
+                    <span id="fav-icon" class="h4 fav-icon" onclick="fillFaveIcon()">
+                      <i class="fa-regular fa-heart"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card card-border-rad">
+                <img src="/CSS/img/asp.net.jpg" class="card-img-top img-border-rad" alt="asp.net.jpg">
+                <div class="card-body">
+                  <div class="mb-2 ms-3"><span class="h4">19$</span></div>
+                  
+                  <h5 class="card-title title-font-size">React JS: Learn React JS From Scratch with Hands-On Projects</h5>
+                  <p class="card-text mb-2 ">Sajeda El-Jendy</p>
+                  <div class="d-flex justify-content-between">
+                    <span class="card-time-margine h6"><i class="fa-regular fa-clock"></i> <span>2:30</span></span>
+                    <div class="d-flex">
+                    <span class="h6">4.6</span><div class="rating-star ms-2 h6"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> 
+                    </div>
+                  </div>
+                  </div>
+                  <hr>
+                  <div class="d-flex justify-content-between">
+                  <a href="#" class="btn btn-primary "><span><i class="fa-solid fa-cart-shopping fa-bounce"></i></span> add to cart
+                  </a>
+                    <span id="fav-icon" class="h4 fav-icon" onclick="fillFaveIcon()">
+                      <i class="fa-regular fa-heart"></i>
+                    </span>
+                  </div>
+                  
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card card-border-rad">
+                <img src="/CSS/img/php-course.jpg" class="card-img-top img-border-rad" alt="php-course.jpg">
+                <div class="card-body">
+                  <div class="mb-2 ms-3"><span class="h4">19$</span></div>
+                    
+                  <h5 class="card-title title-font-size">React JS: Learn React JS From Scratch with Hands-On Projects</h5>
+                  <p class="card-text mb-2 ">Sajeda El-Jendy</p>
+                  <div class="d-flex justify-content-between">
+                    <span class="card-time-margine h6"><i class="fa-regular fa-clock"></i> <span>2:30</span></span>
+                    <div class="d-flex">
+                    <span class="h6">4.6</span><div class="rating-star ms-2 h6"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> 
+                    </div>
+                  </div>
+                  </div>
+                  <hr>
+                  <div class="d-flex justify-content-between">
+                  <a href="#" class="btn btn-primary "><span><i class="fa-solid fa-cart-shopping fa-bounce"></i></span> add to cart
+                  </a>
+                    <span id="fav-icon" class="h4 fav-icon" onclick="fillFaveIcon()">
+                      <i class="fa-regular fa-heart"></i>
+                    </span>
+                  </div>
+                  
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row d-flex justify-content-center">
+            <div class="col-sm-3">
+              <div class="card card-border-rad">
+                <img src="/CSS/img/flutter.jpg" class="card-img-top img-border-rad" alt="flutter">
+                <div class="card-body">
+                  <div class="mb-2 ms-3"><span class="h4">19$</span></div>
+                    
+                  <h5 class="card-title title-font-size">React JS: Learn React JS From Scratch with Hands-On Projects</h5>
+                  <p class="card-text mb-2 ">Sajeda El-Jendy</p>
+                  <div class="d-flex justify-content-between">
+                    <span class="card-time-margine h6"><i class="fa-regular fa-clock"></i> <span>2:30</span></span>
+                    <div class="d-flex">
+                    <span class="h6">4.6</span><div class="rating-star ms-2 h6"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> 
+                    </div>
+                  </div>
+                  </div>
+                  <hr>
+                  <div class="d-flex justify-content-between">
+                  <a href="#" class="btn btn-primary "><span><i class="fa-solid fa-cart-shopping fa-bounce"></i></span> add to cart
+                  </a>
+                    <span id="fav-icon" class="h4 fav-icon" onclick="fillFaveIcon()">
+                      <i class="fa-regular fa-heart"></i>
+                    </span>
+                  </div>
+                  
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card card-border-rad">
+                <img src="/CSS/img/digital-marketing.jpg" class="card-img-top img-border-rad" alt="digital-marketing">
+                <div class="card-body">
+                  <div class="mb-2 ms-3"><span class="h4">19$</span></div>
+                    
+                  <h5 class="card-title title-font-size">React JS: Learn React JS From Scratch with Hands-On Projects</h5>
+                  <p class="card-text mb-2 ">Sajeda El-Jendy</p>
+                  <div class="d-flex justify-content-between">
+                    <span class="card-time-margine h6"><i class="fa-regular fa-clock"></i> <span>2:30</span></span>
+                    <div class="d-flex">
+                    <span class="h6">4.6</span><div class="rating-star ms-2 h6"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> 
+                    </div>
+                  </div>
+                  </div>
+                  <hr>
+                  <div class="d-flex justify-content-between">
+                  <a href="#" class="btn btn-primary "><span><i class="fa-solid fa-cart-shopping fa-bounce"></i></span> add to cart
+                  </a>
+                    <span id="fav-icon" class="h4 fav-icon" onclick="fillFaveIcon()">
+                      <i class="fa-regular fa-heart"></i>
+                    </span>
+                  </div>
+                  
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card card-border-rad">
+                <img src="/CSS/img/node-js-course.jpg" class="card-img-top img-border-rad" alt="reactjs-course">
+                <div class="card-body">
+                  <div class="mb-2 ms-3"><span class="h4">19$</span></div>
+                    
+                  <h5 class="card-title title-font-size">React JS: Learn React JS From Scratch with Hands-On Projects</h5>
+                  <p class="card-text mb-2 ">Sajeda El-Jendy</p>
+                  <div class="d-flex justify-content-between">
+                    <span class="card-time-margine h6"><i class="fa-regular fa-clock"></i> <span>2:30</span></span>
+                    <div class="d-flex">
+                    <span class="h6">4.6</span><div class="rating-star ms-2 h6"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> 
+                    </div>
+                  </div>
+                  </div>
+                  <hr>
+                  <div class="d-flex justify-content-between">
+                  <a href="#" class="btn btn-primary "><span><i class="fa-solid fa-cart-shopping fa-bounce"></i></span> add to cart
+                  </a>
+                    <span id="fav-icon" class="h4 fav-icon" onclick="fillFaveIcon()">
+                      <i class="fa-regular fa-heart"></i>
+                    </span>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>        </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"     data-bs-slide="prev">
+    <span class="carousel-control-prev-icon popular-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon popular-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>

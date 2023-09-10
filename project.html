@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    ></script>
+  </head>
+  <body>
+    <header class="fixed-top">
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: rgb(2, 2, 2)"
+      >
+        <div class="container">
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav" id="links">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  id="languageDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Sign In</a
+                >
+                <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                  <a
+                    class="dropdown-item"
+                    href="signin-instractor.html"
+                    id="inst"
+                    >instractor</a
+                  >
+                  <a class="dropdown-item" href="signin-student.html" id="std"
+                    >student</a
+                  >
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  id="languageDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Sign up</a
+                >
+                <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                  <a class="dropdown-item" href="signup-instractor.html"
+                    >instractor</a
+                  >
+                  <a class="dropdown-item" href="signup-student.html"
+                    >student</a
+                  >
+                </div>
+              </li>
+            </ul>
+            <ul class="navbar-nav" id="user-info">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#" id="user"> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#" id="logout">log out </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white btn position-relative"
+                  href="/cartproducts.html"
+                  ><i class="fas fa-shopping-cart"></i>
+                  <span
+                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger cart-notification"
+                  >
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+                </a>
+                <div class="carts-products"></div>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  ><i class="fab fa-whatsapp"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  ><i class="fab fa-snapchat"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav
+        class="navbar navbar-expand-lg navbar-light px-5 opacity-75"
+        style="background-color: #8c52ff"
+      >
+        <a class="navbar-brand" href="#">
+          <img src="/CSS/img/logo.jpg" height="70px;" width="80px;" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/index.html">Home</a>
+            </li>
+            
+          </ul>
+          <ul class="navbar-nav ad-quize" id="ad-quize">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"> </a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="all-courses.html"
+                >All Courses</a
+              >
+            </li>
+
+            <li class="nav-item dropdown pe-5">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                id="languageDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >More</a
+              >
+              <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                <a class="nav-link" href="project.html">Student's projects</a>
+                <a class="nav-link" href="/index.html#feadback">Feedback</a>
+                <a class="nav-link" href="/index.html#contact">Contact</a>
+                <a class="nav-link" href="/cv.html">CV</a>
+                <a class="nav-link" href="/INSTRACTORS.html">Experts</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown pe-5">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                id="languageDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                ><i class="fas fa-language"></i
+              ></a>
+              <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                <a class="dropdown-item" href="#">Eng</a>
+                <a class="dropdown-item" href="#">AR</a>
+              </div>
+            </li>
+            <li><div id='toggles' onclick='changeTheme()' title='Change to dark mode'><button style="background-color: #8c52ff; border-color: #8c52ff; border: none ;">🔆</button></div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="container margin-top">
+      <div class="row">
+        <div class="col-4">
+          <div class="card my-3 card-height">
+            <img
+              src="/CSS/img/gradestudentaseel.jpg"
+              alt=""
+              class="card-img-top height"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Grade Student Project By JS</h5>
+              <div class="card-text">Aseel Elshadafan</div>
+              <a href="https://fb.watch/mz9ovg5mUs/?mibextid=Nif5oz" class="">
+                <button type="button" class="btn mt-3 w-100 btn-dark">
+                  view project
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card my-3 card-height">
+            <img
+              src="/CSS/img/foody-naglaa.jpg"
+              alt=""
+              class="card-img-top height"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Foody Restaurant By HTML&CSS</h5>
+              <div class="card-text">Naglaa Saad</div>
+              <a href="https://fb.watch/mz9AwfsW2u/?mibextid=Nif5oz" class="">
+                <button type="button" class="btn mt-3 w-100 btn-dark">
+                  view project
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card my-3 card-height">
+            <img src="/CSS/img/hagar.jpg" alt="" class="card-img-top height" />
+            <div class="card-body">
+              <h5 class="card-title">
+                Damas Jewelry store Project By HTML&CSS
+              </h5>
+              <div class="card-text">Hagar Mosalam</div>
+              <a href="https://fb.watch/mz9GZMr6Yk/?mibextid=Nif5oz" class="">
+                <button type="button" class="btn mt-3 w-100 btn-dark">
+                  view project
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="card my-3 card-height">
+            <img
+              src="/CSS/img/nermena.jpg"
+              alt=""
+              class="card-img-top height"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Shanabow Barber</h5>
+              <div class="card-text">Nermena Shenowda</div>
+              <a href="https://fb.watch/mz9LqoQgEd/?mibextid=Nif5oz" class="">
+                <button type="button" class="btn mt-3 w-100 btn-dark">
+                  view project
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card my-3 card-height">
+            <img
+              src="/CSS/img/calcAseel.jpg"
+              alt=""
+              class="card-img-top height"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Calculator Project By JS</h5>
+              <div class="card-text">Aseel Elshadafan</div>
+              <a href="https://fb.watch/mz9t1_No7a/?mibextid=Nif5oz" class="">
+                <button type="button" class="btn mt-3 w-100 btn-dark">
+                  view project
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card my-3 card-height">
+            <img
+              src="/CSS/img/ayasaqrWatches.jpg"
+              alt=""
+              class="card-img-top height"
+            />
+            <div class="card-body">
+              <h5 class="card-title">watches website by HTML&CSS</h5>
+              <div class="card-text">aseel elshadafan</div>
+              <a href="https://fb.watch/mz9DpONdc2/?mibextid=Nif5oz" class="">
+                <button type="button" class="btn mt-3 w-100 btn-dark">
+                  view project
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+<section class="">
+  <!-- Footer -->
+  <footer class=" text-white" style="background-color: #8c52ff;">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <img src="/CSS/img/logo.jpg" style="border-radius: 50%; width: 100px; height: 100px; text-align: center; margin: auto; position: relative;" alt="">
+
+          <h5 class="text-uppercase">Crazy Cooode</h5>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+            aliquam voluptatem veniam, est atque cumque eum delectus sint!
+          </p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="index.html" class="text-white nav-link">Home</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white nav-link">About</a>
+            </li>
+            <li>
+              <a href="/all-courses.html" class="text-white nav-link">All Courses</a>
+            </li>
+            <li>
+              <a href="/project.html" class="text-white nav-link" >Student's project</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="/index.html#feadback" class="text-white nav-link">Feed Back</a>
+            </li>
+            <li>
+              <a href="/cv.html" class="text-white nav-link">CV</a>
+            </li>
+            <li>
+              <a href="/INSTRACTORS.html" class="text-white nav-link">Expert</a>
+            </li>
+            <li>
+              <a href="/index.html#contact" class="text-white nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3 " style="background-color: rgba(0, 0, 0, 0.2);">
+      
+      <a class="text-white nav-link" href="https://mdbootstrap.com/">© 2020 Copyright:CrazyCooode.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</section>
+    <script src="/JS/checkLog.js"></script>
+    <script src="/JS/data.js"></script>
+    <script src="/JS/main.js"></script>
+  </body>
+</html>
